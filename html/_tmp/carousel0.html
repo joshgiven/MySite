@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Twitter Bootstrap : Carousel Slide </title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+    /*.demoBS2 {
+        margin: 10px;
+    }*/
+    .carousel {
+    }
+
+    .carousel-inner .item {
+      margin: 0 auto;
+    }
+</style>
+
+<body>
+    <div class="DemoBS2">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-demo" data-slide-to="1"></li>
+                <li data-target="#carousel-demo" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="col-md-6 center-block item active">
+                    <img src="img/projects/Presidents.jpg" class="img-responsive center-block img-rounded" alt="Presidents">
+                    <div class="carousel-caption">
+                        <h3>1 Presidents</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-6 center-block item">
+                    <img src="img/projects/Pumpr.jpg" class="img-responsive center-block img-rounded" alt="Pumpr">
+                    <div class="carousel-caption">
+                        <h3>2 Pumpr</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-6 center-block item">
+                  <img src="img/projects/TBD.jpg" class="img-responsive center-block img-rounded" alt="TBD">
+                  <div class="carousel-caption">
+                    <h3>3 TBD</h3>
+                  </div>
+                </div>
+
+
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </div>
+    </div>
+</body>
+
+</html>

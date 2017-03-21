@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html ng-app='ngResume'>
+
+<head>
+  <script src="./js/vendor/jquery-3.1.1.min.js"></script>
+  <script src="./js/vendor/angular.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="./js/ngResume.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>All Things Josh Given</title>
+<body>
+
+  <!-- <a id="home"></a> -->
+  <div id="home" class='container'>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Josh Given</a>
+        </div>
+        <p class="navbar-text">Full-Stack Web Developer</p>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li role="presentation"><a href="#home">Home</a></li>
+            <li role="presentation"><a href="#about">About</a></li>
+            <li role="presentation"><a href="#projects">Projects</a></li>
+            <li role="presentation"><a href="#resume">Resume</a></li>
+            <li role="presentation"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- <a id="about"></a> -->
+    <div id="about">
+      <h1>About</h1>
+      <div>
+        <p>I'm a hip old granny who can hip-hop, bebop, dance till you drop, and (yo! yo!) make a wicked cup of cocoa.</p>
+        <p>Currently enrolled in the Skill Distillery learnding about the Web Developmentals and such.</p>
+      </div>
+    </div>
+
+
+    <!-- <a id="projects"></a> -->
+    <div id="projects">
+      <h1>Projects</h1>
+      <my-project-table>Loading...</my-project-table>
+    </div>
+<!--
+    <div id='resume'>
+        <h1>Resume</h1>
+        <div>
+            <p>JOSHUA GIVEN | 303-475-7576 | josh.given@gmail.com</p>
+            <h2>Skills Summary</h2>
+            <p>Computer based: data entry, advanced programming, general problem-solving; Customer service; Small team management; Attention to details; Multi-tasking; Quick study</p>
+            <h2>Education</h2>
+            <p>Bachelor of Science, Computer Science University of Colorado-Boulder, 1998</p>
+            <h2>Experience</h2>
+            <h3>Echo Concepts</h3>
+            <p>Exacting Professional | March 2003-Present</p>
+            <p>I play many roles at this small company including small team management, providing customer service to our clients by taking orders and making deliveries and pickups, and management of document imaging and data entry projects. I also develop
+                software for image modification as well as data extraction and manipulation.</p>
+            <h3>University of Colorado - Denver</h3>
+            <p>Laboratory Assistant | May 2012-July 2012</p>
+            <p>I assisted in the organization of a new scientific research laboratory. Duties included generating online chemical inventories, making reagents, data entry, and general organization. </p>
+            <h3>Borders Books</h3>
+            <p>Cashier, Bookseller, Barista | October 2002-June 2006</p>
+            <p>I unpacked, sorted, and shelved books, CDs and DVDs. I enjoyed assisting customers with product selection, and also served as a barista preparing coffee drinks. </p>
+            <h3>New Era of Networks/Sybase</h3>
+            <p>Software Engineer | May1998-March 2002</p>
+            <p>I developed and maintained code for database abstraction and messaging sub-systems across multiple Operating Systems, Database Management Systems, and Asynchronous Messaging products. I also tested installation procedures for NEONet product
+                line across multiple Operating Systems and Database Management Systems, maintained and executed automated testing system for Quality Assurance department and designed and ran tests for database and messaging subsystems.</p>
+        </div>
+    </div>
+ -->
+
+    <!-- <a id="resume"></a> -->
+    <div id="resume">
+      <h1>Resume</h1>
+      <my-resume>Loading...</my-resume>
+    </div>
+
+
+    <!-- <a id="contact"></a> -->
+    <div id="contact">
+      <h1>Contact Me</h1>
+
+      <ul class="nav nav-pills">
+        <li><a role="presentation" href="mailto:josh.given@gmail.com"><i class="fa fa-envelope fa-3x"></i></a></li>
+        <li><a role="presentation" href="https://github.com/joshgiven"><i class="fa fa-github fa-3x"></i></a></li>
+        <li><a role="presentation" href="http://linkedin.com/in/josh-given"><i class="fa fa-linkedin fa-3x"></i></a></li>
+      </ul>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <ul class='nav navbar-nav'>
+            <li><a role="presentation" href='#home'>Home</a></li>
+            <li><a role="presentation" href='#about'>About</a></li>
+            <li><a role="presentation" href='#projects'>Projects</a></li>
+            <li><a role="presentation" href='#resume'>Resume</a></li>
+            <li><a role="presentation" href='#contact'>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+
+{
+  "name" : "Joshua Given",
+  "contact" : {
+    "phone" : "303-475-7576",
+    "email" : "josh.given@gmail.com",
+    "website" : "joshgiven.com",
+    "github" : "github.com/joshgiven",
+    "linkedin" : "www.linkedin.com/in/josh-given"
+  },
+  "skillsSummary" : {
+    "title" : "Skills Summary",
+    "skills" : [
+      {
+        "category" : "Front-End Dev",
+        "items" :[
+          "JavaScript",
+          "jQuery",
+          "AngularJS",
+          "HTML",
+          "CSS",
+          "Bootstrap"
+        ]
+      },
+      {
+        "category" : "Back-End Dev",
+        "items" :[
+          "Java",
+          "Spring MVC",
+          "JPA",
+          "JDBC",
+          "SQL",
+          "JSP",
+          "REST",
+          "JSON",
+          "JUnit"
+        ]
+      },
+      {
+        "category" : "Dev Tools",
+        "items" :[
+          "Eclipse/Spring Tool Suite",
+          "Git/Github",
+          "Gradle",
+          "Maven"
+        ]
+      },
+      {
+        "category" : "Deployment",
+        "items" :[
+          "MySQL",
+          "AWS/EC2",
+          "Tomcat 8"
+        ]
+      },
+      {
+        "category" : "Other Tech",
+        "items" :[
+          "Ruby",
+          "C++"
+        ]
+      },
+      {
+        "category" : "Soft",
+        "items" : [
+          "Data Entry",
+          "Problem-Solving",
+          "Customer Service",
+          "Small Team Management",
+          "Attention to Details",
+          "Multi-Tasking",
+          "Quick study"
+        ]
+      }
+    ]
+  },
+  "educationSummary" : {
+    "title" : "Education",
+    "educations" : [
+      {
+        "school" : "Skill Distillery",
+        "major" : "Full-Stack Web Development",
+        "degree" : "",
+        "start" : "November 2016",
+        "finish" : "March 2017"
+      },
+      {
+        "school" : "University of Colorado-Boulder",
+        "major" : "Computer Science",
+        "degree" : "Bachelor of Science",
+        "start" : "1994",
+        "finish" : "1998"
+      }
+    ]
+  },
+
+  "experienceSummary" : {
+    "title" : "Experience",
+    "jobs" : [
+      {
+        "level" : 1,
+        "employer" : "Echo Concepts",
+        "title" : "Document Specialist, Production Manager",
+        "timeframe" : "March 2003 - November 2016",
+        "bullets" : [
+          "An accomplishment",
+          "Another accomplishment",
+          "One more accomplishment"
+        ],
+        "description" : "I played many roles at this small company including small team management, providing customer service to clients by taking orders and making deliveries and pickups, and management of document imaging and data entry projects. I also developed software for image modification as well as data extraction and manipulation."
+      },
+      {
+        "level" : 2,
+        "employer" : "University of Colorado - Denver",
+        "title" : "Laboratory Assistant",
+        "timeframe" : "May 2012 - July 2012",
+        "bullets" : [
+          "An accomplishment",
+          "Another accomplishment",
+          "One more accomplishment"
+        ],
+        "description" : "I assisted in the organization of a new scientific research laboratory. Duties included generating online chemical inventories, making reagents, data entry, and general organization. "
+      },
+      {
+        "level" : 3,
+        "employer" : "Borders Books",
+        "title" : "Cashier, Bookseller, Barista",
+        "timeframe" : "October 2002 - June 2006",
+        "bullets" : [
+          "An accomplishment",
+          "Another accomplishment",
+          "One more accomplishment"
+        ],
+        "description" : "I unpacked, sorted, and shelved books, CDs and DVDs. I enjoyed assisting customers with product selection, and also served as a barista preparing coffee drinks. "
+      },
+      {
+        "level" : 1,
+        "employer" : "New Era of Networks/Sybase",
+        "title" : "Software Engineer",
+        "timeframe" : "May1998 - March 2002",
+        "bullets" : [
+          "An accomplishment",
+          "Another accomplishment",
+          "One more accomplishment"
+        ],
+        "description" : "I developed and maintained code for database abstraction and messaging sub-systems across multiple Operating Systems, Database Management Systems, and Asynchronous Messaging products. I also tested installation procedures for NEONet product line across multiple Operating Systems and Database Management Systems, maintained and executed automated testing system for Quality Assurance department and designed and ran tests for database and messaging subsystems."
+      }
+    ]
+  }
+}

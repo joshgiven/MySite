@@ -1,0 +1,90 @@
+{
+    "projects": [
+        {
+            "name": "WebPresidents",
+            "imageURL" : "/img/projects/Presidents.jpg",
+            "deployment": "/WebPresidents/",
+            "github": "https://github.com/joshgiven/WebPresidents/",
+            "description": "A slideshow of the U.S. Presidents",
+            "lesson": "Week 7 group project",
+            "technologies": [
+              "Java", "Servlets", "JSP", "JSTL",
+              "HTML", "CSS",
+              "Tomcat 8", "AWS",
+              "Eclipse", "Maven", "Git"
+            ]
+        },
+        {
+            "name": "RecordBin",
+            "imageURL" : "/img/projects/RecordBin.jpg",
+            "deployment": "/RecordBin/",
+            "github": "https://github.com/joshgiven/RecordCrate/",
+            "description": "RecordCrate (dba RecordBin) is an album-centric music tracking system.",
+            "lesson": "Week 8 individual project",
+            "technologies": [
+              "Java", "SpringMVC", "JSP", "JSTL",
+              "HTML", "CSS",
+              "Ruby", "JSON", "Jackson",
+              "Eclipse", "Spring Tool Suite", "Gradle", "Git", "JUnit",
+              "Tomcat 8", "AWS"
+            ]
+        },
+        {
+            "name": "BurgerTime",
+            "imageURL" : "/img/projects/BurgerTime.jpg",
+            "deployment": "/BurgerTime/",
+            "github": "https://github.com/joshgiven/BurgerTime",
+            "description": "A Build-A-Burger recipe workshop",
+            "lesson": "Week 9 paired project",
+            "technologies": [
+              "Java", "SpringMVC", "JDBC", "JSP", "JSTL",
+              "HTML", "CSS", "Bootstrap",
+              "Eclipse", "Spring Tool Suite", "Gradle", "Git", "JUnit",
+              "Tomcat 8", "AWS", "MySQL", "SQL"
+            ]
+        },
+        {
+            "name": "Chumly",
+            "imageURL" : "/img/projects/Chumly.jpg",
+            "deployment": "/MVCChumly/",
+            "github": "https://github.com/joshgiven/Chumly",
+            "description": "Chumly is an activity-centered, platonic match-making service, connecting people based on common interests, locations, and schedules.",
+            "lesson": "Week 10 group project",
+            "technologies": [
+              "Java", "Spring MVC", "JPA", "JPQL", "Hibernate", "JSP", "JSTL",
+              "HTML", "CSS", "Bootstrap",
+              "Eclipse", "Spring Tool Suite", "Gradle", "Git", "JUnit",
+              "Tomcat 8", "AWS", "MySQL", "SQL"
+            ]
+        },
+        {
+            "name": "Pumpr",
+            "imageURL" : "/img/projects/Pumpr.jpg",
+            "deployment": "/PumprREST/",
+            "github": "https://github.com/joshgiven/Pumpr",
+            "description": "Pumpr is a fuel-consumption event tracker",
+            "lesson": "Week 12 individual project",
+            "technologies": [
+              "Java", "Spring MVC", "REST", "JPA", "Hibernate",
+              "JavaScript", "jQuery", "Underscore.js", "Chart.js", "Bootstrap", "HTML", "CSS",
+              "Eclipse", "Spring Tool Suite", "Gradle", "JUnit",
+              "AWS", "Tomcat 8", "MySQL", "SQL"
+            ]
+        },
+        {
+            "name": "TBD",
+            "imageURL" : "/img/projects/TBD.jpg",
+            "deployment": "/TBD/",
+            "github": "https://github.com/joshgiven/TBD",
+            "description": "It is a riddle, inside an enigma, wrapped in a sweater vest",
+            "lesson": "",
+            "technologies": [
+              "Java", "Spring MVC", "REST", "JPA", "JPQL", "Hibernate",
+              "JavaScript", "AngularJS", "jQuery",
+              "HTML", "CSS", "Bootstrap",
+              "Eclipse", "Spring Tool Suite", "Gradle", "JUnit",
+              "AWS", "Tomcat 8", "MySQL", "SQL"
+            ]
+        }
+    ]
+}
