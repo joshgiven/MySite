@@ -2,93 +2,259 @@
 <html ng-app='ngResume'>
 
 <head>
-  <script src="./js/vendor/jquery-3.1.1.min.js"></script>
-  <script src="./js/vendor/angular.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/superhero/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <script src="./js/ngResume.js"></script>
-
   <link rel="stylesheet" href="css/style.css">
 
   <title>All Things Josh Given</title>
+
+  <script src="./js/vendor/jquery-3.1.1.min.js"></script>
+  <script src="./js/vendor/angular.min.js"></script>
+  <script src="./js/vendor/jquery.sticky.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="./js/ngResume.js"></script>
 <body>
 
-  <!-- <a id="home"></a> -->
-  <div id="home" class='container'>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Josh Given</a>
-        </div>
-        <p class="navbar-text">Full-Stack Web Developer</p>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li role="presentation"><a href="#home">Home</a></li>
-            <li role="presentation"><a href="#about">About</a></li>
-            <li role="presentation"><a href="#projects">Projects</a></li>
-            <li role="presentation"><a href="#resume">Resume</a></li>
-            <li role="presentation"><a href="#contact">Contact</a></li>
+  <div class="preloader"></div>
+
+  <section id="hero">
+    <div class="hero-container center-block">
+      <div class="container">
+        <h1>Josh Given</h1>
+
+        <img src="./img/profile/hoodie.jpg" class="center-block img-circle">
+
+        <h3>Software Engineer | Full-Stack Web Developer | Amateur Astronaut</h3>
+
+        <div style="margin-bottom: 40px;"></div>
+
+        <a class="btn btn-primary" href="#about">Welcome</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="transition0"></section>
+
+  <header id="header">
+    <div class='container-fluid' style="padding: 0;">
+      <nav class="navbar navbar-default" style="margin: 0;">
+        <!-- <div class="container-fluid"> -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Josh Given</a>
+          </div>
+
+          <p class="navbar-text">Software Engineer | Full-Stack Web Developer | Backyard Grillmaster</p>
+
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <!-- <li role="presentation"><a href="#home">Home</a></li> -->
+              <li role="presentation"><a href="#about">About</a></li>
+              <li role="presentation"><a href="#projects">Projects</a></li>
+              <li role="presentation"><a href="#resume">Resume</a></li>
+              <li role="presentation"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        <!-- </div> -->
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h1>About Me</h1>
+
+      <div class="row">
+        <div class="text-center">
+          <ul class="list-inline">
+            <li><img src="./img/profile/mash.jpg"></li>
+            <li><img src="./img/profile/headshot.jpg"></li>
+            <li><img src="./img/profile/board.jpg"></li>
           </ul>
         </div>
       </div>
-    </nav>
 
 
-    <!-- <a id="about"></a> -->
-    <div id="about">
-      <h1>About</h1>
       <div>
         <p>I'm a hip old granny who can hip-hop, bebop, dance till you drop, and (yo! yo!) make a wicked cup of cocoa.</p>
         <p>Currently enrolled in the Skill Distillery learnding about the Web Developmentals and such.</p>
       </div>
     </div>
+  </section>
 
+  <section id="transition1"></section>
 
-    <!-- <a id="projects"></a> -->
-    <div id="projects">
+  <section id="projects">
+    <div class="container">
       <h1>Projects</h1>
       <my-project-table>Loading...</my-project-table>
     </div>
-<!--
-    <div id='resume'>
-        <h1>Resume</h1>
-        <div>
-            <p>JOSHUA GIVEN | 303-475-7576 | josh.given@gmail.com</p>
-            <h2>Skills Summary</h2>
-            <p>Computer based: data entry, advanced programming, general problem-solving; Customer service; Small team management; Attention to details; Multi-tasking; Quick study</p>
-            <h2>Education</h2>
-            <p>Bachelor of Science, Computer Science University of Colorado-Boulder, 1998</p>
-            <h2>Experience</h2>
-            <h3>Echo Concepts</h3>
-            <p>Exacting Professional | March 2003-Present</p>
-            <p>I play many roles at this small company including small team management, providing customer service to our clients by taking orders and making deliveries and pickups, and management of document imaging and data entry projects. I also develop
-                software for image modification as well as data extraction and manipulation.</p>
-            <h3>University of Colorado - Denver</h3>
-            <p>Laboratory Assistant | May 2012-July 2012</p>
-            <p>I assisted in the organization of a new scientific research laboratory. Duties included generating online chemical inventories, making reagents, data entry, and general organization. </p>
-            <h3>Borders Books</h3>
-            <p>Cashier, Bookseller, Barista | October 2002-June 2006</p>
-            <p>I unpacked, sorted, and shelved books, CDs and DVDs. I enjoyed assisting customers with product selection, and also served as a barista preparing coffee drinks. </p>
-            <h3>New Era of Networks/Sybase</h3>
-            <p>Software Engineer | May1998-March 2002</p>
-            <p>I developed and maintained code for database abstraction and messaging sub-systems across multiple Operating Systems, Database Management Systems, and Asynchronous Messaging products. I also tested installation procedures for NEONet product
-                line across multiple Operating Systems and Database Management Systems, maintained and executed automated testing system for Quality Assurance department and designed and ran tests for database and messaging subsystems.</p>
-        </div>
-    </div>
- -->
+  </section>
 
-    <!-- <a id="resume"></a> -->
-    <div id="resume">
+  <section id="transition2"></section>
+
+  <section id="resume">
+    <div class="container">
       <h1>Resume</h1>
-      <my-resume>Loading...</my-resume>
+      <!-- <my-resume>Loading...</my-resume> -->
+      <div class="row resume-item">
+        <div class="col-md-2">
+          <h4>SKILLS</h4>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>Java</li>
+            <li>Spring MVC</li>
+            <li>JPA</li>
+            <li>JDBC</li>
+            <li>JSP</li>
+            <li>REST</li>
+            <li>JSON</li>
+            <li>JUnit</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>AngularJS</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>Eclipse</li>
+            <li>Git/Github</li>
+            <li>Gradle</li>
+            <li>Maven</li>
+            <li>MySQL</li>
+            <li>AWS/EC2</li>
+            <li>Tomcat8</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>Ruby</li>
+            <li>C++</li>
+            <li>SQL</li>
+            <li>UNIX/LINUX</li>
+          </ul>
+          </div>
+      </div>
+
+      <div class="row resume-item">
+        <div class="col-md-2">
+          <h4>CERTIFICATION</h4>
+        </div>
+        <div class="col-md-6">
+          <h4>Oracle Certified Associate Java SE 8 Programmer</h4>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="row resume-item">
+        <div class="col-md-2">
+          <h4>EDUCATION</h4>
+        </div>
+
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-9">
+              <h4>Full-Stack Web Development</h4>
+              <p>An immersive 16-week Full-Stack Web Development course focusing on 3
+core objectives: 1) Fundamentals of Programming in Java, 2) Server-Side Web
+App development in Java using Spring, 3) Developing RESTful Web Services
+and consuming them with JavaScript libraries including jQuery and AngularJS.</p>
+              <hr>
+            </div>
+            <div class="col-md-3">
+              <h4>Skill Distillery</h4>
+              <p>Nov. 2016 - March 2017</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-9">
+              <h4>B.S., Computer Science</h4>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-md-3">
+              <h4>University of Colorado</h4>
+              <p>Sept. 1994 - May 1998</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row resume-item">
+        <div class="col-md-2">
+          <h4>EXPERIENCE</h4>
+        </div>
+
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-9">
+              <h4>Document Specialist / Project Manager</h4>
+              <p>Managed document imaging and data entry projects for companies in the
+medical, financial, energy, government and legal fields</p>
+              <p>Developed software in C++ for batch image modification</p>
+              <p>Wrote data extraction, manipulation, and reporting scripts in Ruby</p>
+              <p>Integrated image files with custom databases</p>
+              <p>Established and implement electronic workflow procedures</p>
+              <p>Provided customer support and quality control</p>
+              <hr>
+            </div>
+            <div class="col-md-3">
+              <h4>Echo Concepts</h4>
+              <p>Denver, CO</p>
+              <p>Mar. 2003 - Nov. 2016</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-9">
+              <h4>Software Engineer</h4>
+              <p>Developed and maintained code for database abstraction sub-system
+across multiple operating systems and database management products,
+including Oracle, Sybase, Microsoft SQL Server, and IBM DB2</p>
+              <p>Maintained and enhanced inter-process messaging abstraction layer
+              (Open Transport) including drivers for IBM MQSeries and NEON EMQ</p>
+              <p>Designed and implemented Open Transport driver for Tibco Rendezvous</p>
+              <p>Designed and implemented Open Transport driver to communicate with
+              Sybase EAServer’s Message Service through CORBA C++ interface.</p>
+              <p>Designed driver to inter-operate with EAServer clients and components
+              using Java Message Service.</p>
+              <p>Maintained database-driven messaging and queuing product (EMQ).</p>
+              <hr>
+              <h4>Quality Software Engineer</h4>
+              <p>Tested installation procedures for NEONet product line across multiple
+operating systems and database management systems</p>
+              <p>Maintained and executed automated testing system for Quality
+Assurance department</p>
+              <p>Designed and ran tests for database and messaging sub-systems</p>
+            </div>
+            <div class="col-md-3">
+              <h4>New Era of Networks / Sybase</h4>
+              <p>Englewood, CO</p>
+              <p>May 1998 - Mar. 2002</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
+  </section>
 
+  <section id="transition3"></section>
 
-    <!-- <a id="contact"></a> -->
-    <div id="contact">
+  <section id="contact">
+    <div class="container">
       <h1>Contact Me</h1>
 
       <ul class="nav nav-pills">
@@ -97,21 +263,33 @@
         <li><a role="presentation" href="http://linkedin.com/in/josh-given"><i class="fa fa-linkedin fa-3x"></i></a></li>
       </ul>
     </div>
+  </section>
 
-    <footer class="footer">
-      <div class="container">
-        <div>
-          <ul class='nav navbar-nav'>
-            <li><a role="presentation" href='#home'>Home</a></li>
-            <li><a role="presentation" href='#about'>About</a></li>
-            <li><a role="presentation" href='#projects'>Projects</a></li>
-            <li><a role="presentation" href='#resume'>Resume</a></li>
-            <li><a role="presentation" href='#contact'>Contact</a></li>
-          </ul>
-        </div>
+  <footer class="footer">
+    <div class="container">
+      <div>
+        &copy; 2017 Josh Given, All Rights Reserved.
       </div>
-    </footer>
+    </div>
+  </footer>
 
-  </div>
+  <script>
+    $(document).ready(function(){
+      //$("#header").sticky({topSpacing:0});
+      $("#header").sticky({topSpacing:0, zIndex: '50'});
+    });
+
+    var roles = [
+      "Amateur Astronaut",
+      "Backyard Grillmaster",
+      "Taco Enthusiast",
+      "Foghat Superfan",
+      "Cruciverbalist",
+      "Cat Wrangler",
+      "Bargain Shopper",
+      "Pergola Craftsman",
+    ];
+  </script>
+
 </body>
 </html>

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+section {
+  padding: 80px 0;
+}
+
+#preloader {
+
+}
+
+#hero {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  /*background: url(../img/profile/board.jpg) top center fixed;*/
+  /*background-size: cover;*/
+}
+
+#hero h1, h3 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#hero h1 {
+  font-size: 80px;
+}
+
+.hero-img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.hero-container {
+  /*background: rgba(0, 0, 0, 0.8);*/
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#header {
+
+}
+
+#about {
+
+}
+
+#about img {
+  max-height: 250px;
+  border-radius: 10px;
+}
+
+#projects {
+
+}
+
+#resume {
+
+}
+
+.resume-item {
+	margin-bottom: 40px;
+}
+
+#contact {
+  /*display: table;
+  width: 100%;
+  height: 100vh;
+  padding: 0;*/
+
+}
+
+#transition0 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/wallpaper/bells.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#transition1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/wallpaper/bluebird.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#transition2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/wallpaper/codescreen.png) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#transition3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/wallpaper/station.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}

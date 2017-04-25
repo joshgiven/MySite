@@ -72,12 +72,12 @@
             ]
         },
         {
-            "name": "TBD",
-            "imageURL" : "/img/projects/TBD.jpg",
-            "deployment": "/TBD/",
-            "github": "https://github.com/joshgiven/TBD",
-            "description": "It is a riddle, inside an enigma, wrapped in a sweater vest",
-            "lesson": "",
+            "name": "TrailApp dba Trail Update",
+            "imageURL" : "/img/projects/TrailApp.jpg",
+            "deployment": "/TrailAppREST/",
+            "github": "https://github.com/joshgiven/TrailApp",
+            "description": "An effort to crowdsource information about trail conditions, giving users the ability to search, filter, and update information.",
+            "lesson": "Week 15 group project",
             "technologies": [
               "Java", "Spring MVC", "REST", "JPA", "JPQL", "Hibernate",
               "JavaScript", "AngularJS", "jQuery",

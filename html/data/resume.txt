@@ -1,0 +1,96 @@
+- Narrative
+  - A career re-routed. A Software Developer at heart whose been away from the game.
+    Old skills dusted off, honed... Mental muscles exercised, strengthened...
+    Programmer re-emerges, swagger comes back, not cockiness... more seasoned, wiser...
+
+  - "programming... breaking problems down... this is the way your brain works, Josh"
+  - "curiosity... not \"oh, let's just finish this task and be done...\"
+     For you it's: \"let's push the boundaries, see how we can break this...\""
+
+- Technologies
+  - Back-End
+    - Proficient at:
+    - Experienced with:
+
+  - Front-End
+    - Proficient at:
+    - Experienced with:
+
+- Education
+  - Skill Distillery
+    - Sell Program
+    - Sell Josh
+
+  - CU-Boulder
+    - BS/CS
+
+- Projects
+
+- Experience (Most positive spin on things)
+  - Echo Concepts
+    - Jack-of-all-Trades
+    - Willingness to do any duty
+    - de facto Production Manager
+    - software development
+      - Ruby (self-taught)
+      - Production tools
+      - reporting
+      - what problems were solved? Time/effort saved? new service provided?
+
+  Edit1:
+  Document Imaging Specialist
+  Echo Concepts converts paper-based documents into electronic image files and
+  data. Files and associated data are then formatted it into a database or file
+  record based on clients’ requirements.
+  -	Manage document imaging and data entry projects for companies in the medical,
+    financial, energy, government and legal fields.
+  - Develop software for image modification as well as data extraction and
+    manipulation.
+  - Integrate image files with custom databases
+  - Establish and implement electronic workflow procedures
+  - Provide customer support and quality control
+
+  Edit2:
+  Exacting Professional | March 2003-Present
+  I play many roles at this small company including small team management,
+  providing customer service to our clients by taking orders and making
+  deliveries and pickups, and management of document imaging and data entry
+  projects. I also develop software for image modification as well as data
+  extraction and manipulation.
+
+
+
+
+
+
+  - NEON / Sybase
+    - Development?
+      - ODBC-like, vendor-neutral relational database interface 
+      - Message-Oriented Middleware
+
+    - QA?
+      - Testing Suite
+      - Native Installs on all platforms
+
+      Edit1:
+      New Era of Networks (NEON) / Sybase
+      May 1998 - March 2002; Englewood, CO
+      Software Engineer
+      -	Developed and maintained code for database abstraction sub-system across
+        multiple operating systems and database management products, including
+        Oracle, Sybase, Microsoft SQL Server, and IBM DB2.
+      -	Maintained and enhanced inter-process messaging abstraction layer
+        (Open Transport) including drivers for IBM MQSeries and NEON EMQ.
+      -	Designed and implemented Open Transport driver for Tibco Rendezvous
+        including Certified Messaging features.
+      -	Designed and implemented Open Transport driver to communicate with Sybase
+        EAServer’s Message Service through CORBA C++ interface.
+      -	Designed driver to inter-operate with EAServer clients and components
+        using Java Message Service.
+      - Maintained database-driven messaging and queuing product (EMQ).
+
+      Quality Software Engineer
+      -	Tested installation procedures for NEONet product line across multiple
+        operating systems and database management systems.
+      - Maintained and executed automated testing system for Quality Assurance department.
+      - Designed and ran tests for database and messaging sub-systems.

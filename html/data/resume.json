@@ -80,16 +80,15 @@
       {
         "school" : "Skill Distillery",
         "major" : "Full-Stack Web Development",
-        "degree" : "",
         "start" : "November 2016",
-        "finish" : "March 2017"
+        "finish" : "March 2017",
+        "description" : "An immersive 16-week Full-Stack Web Development course comprised of 3 core objectives: 1) Fundamentals of Programming in Java, 2) Server-Side Web App development in Java using Spring, 3) Developing RESTful Web Services and consuming them via AJAX through JavaScript libraries including jQuery and AngularJS."
       },
       {
         "school" : "University of Colorado-Boulder",
-        "major" : "Computer Science",
-        "degree" : "Bachelor of Science",
-        "start" : "1994",
-        "finish" : "1998"
+        "major" : "B.S. - Computer Science",
+        "start" : "Fall 1994",
+        "finish" : "Spring 1998"
       }
     ]
   },
@@ -137,7 +136,7 @@
         "level" : 1,
         "employer" : "New Era of Networks/Sybase",
         "title" : "Software Engineer",
-        "timeframe" : "May1998 - March 2002",
+        "timeframe" : "May 1998 - March 2002",
         "bullets" : [
           "An accomplishment",
           "Another accomplishment",
