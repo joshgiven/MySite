@@ -99,7 +99,7 @@ app.component('myProjectTable', {
 
 app.component('myProjectRow', {
   template : `
-    <div class="row"">
+    <div class="row">
       <my-project-card ng-repeat="project in $ctrl.cards" project="project">Loading...</my-project-card>
     </div>
   `,
@@ -120,19 +120,23 @@ app.component('myProjectRow', {
 app.component('myProjectCard', {
   template : `
     <div class="col-sm-4 col-xs-12">
-      <div id='$ctrl.project.name' class="panel panel-default">
+      <div ng-attr-id='{{$ctrl.project.name}}' class="panel panel-primary">
         <div class="panel-heading">
           <h4>{{ $ctrl.project.name }}</h4>
         </div>
-        <div class="panel-body">
+        <div class="panel-body match-height">
           <img ng-attr-src={{$ctrl.project.imageURL}} class="img-rounded">
+          <p class="text-center"><em>({{ $ctrl.project.lesson }})</em></p>
           <p>{{ $ctrl.project.description }}</p>
-          <p>{{ $ctrl.project.lesson }}</p>
           <p>{{ $ctrl.techJoin($ctrl.project) }}</p>
         </div>
-        <div class="panel-footer">
-          <a ng-attr-href={{$ctrl.project.deployment}} onclick='javascript:event.target.port=8080'>try it</a>
-          <a ng-attr-href={{$ctrl.project.github}}>github</a>
+        <div class="panel-footer text-center">
+          <a ng-attr-href={{$ctrl.project.deployment}} class="btn btn-primary">
+            <i class="fa fa-car"></i> test drive
+          </a>
+          <a ng-attr-href={{$ctrl.project.github}} class="btn btn-primary">
+            <i class="fa fa-github"></i> source code
+          </a>
         </div>
       </div>
     </div>
@@ -146,6 +150,15 @@ app.component('myProjectCard', {
     vm.techJoin = function(project) {
       return project.technologies.join(', ');
     };
+
+    $(function() {
+      $('.match-height').matchHeight({
+        byRow: false,
+        property: 'height',
+        target: null,
+        remove: false
+      });
+    });
   },
 
   bindings : {

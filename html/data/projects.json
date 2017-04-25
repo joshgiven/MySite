@@ -3,10 +3,10 @@
         {
             "name": "WebPresidents",
             "imageURL" : "/img/projects/Presidents.jpg",
-            "deployment": "/WebPresidents/",
+            "deployment": "www.joshgiven.com:8080/WebPresidents/",
             "github": "https://github.com/joshgiven/WebPresidents/",
             "description": "A slideshow of the U.S. Presidents",
-            "lesson": "Week 7 group project",
+            "lesson": "Skill Distillery Week 7 group project",
             "technologies": [
               "Java", "Servlets", "JSP", "JSTL",
               "HTML", "CSS",
@@ -17,10 +17,10 @@
         {
             "name": "RecordBin",
             "imageURL" : "/img/projects/RecordBin.jpg",
-            "deployment": "/RecordBin/",
+            "deployment": "www.joshgiven.com:8080/RecordBin/",
             "github": "https://github.com/joshgiven/RecordCrate/",
             "description": "RecordCrate (dba RecordBin) is an album-centric music tracking system.",
-            "lesson": "Week 8 individual project",
+            "lesson": "Skill Distillery Week 8 individual project",
             "technologies": [
               "Java", "SpringMVC", "JSP", "JSTL",
               "HTML", "CSS",
@@ -32,10 +32,10 @@
         {
             "name": "BurgerTime",
             "imageURL" : "/img/projects/BurgerTime.jpg",
-            "deployment": "/BurgerTime/",
+            "deployment": "www.joshgiven.com:8080/BurgerTime/",
             "github": "https://github.com/joshgiven/BurgerTime",
             "description": "A Build-A-Burger recipe workshop",
-            "lesson": "Week 9 paired project",
+            "lesson": "Skill Distillery Week 9 paired project",
             "technologies": [
               "Java", "SpringMVC", "JDBC", "JSP", "JSTL",
               "HTML", "CSS", "Bootstrap",
@@ -46,10 +46,10 @@
         {
             "name": "Chumly",
             "imageURL" : "/img/projects/Chumly.jpg",
-            "deployment": "/MVCChumly/",
+            "deployment": "www.joshgiven.com:8080/MVCChumly/",
             "github": "https://github.com/joshgiven/Chumly",
             "description": "Chumly is an activity-centered, platonic match-making service, connecting people based on common interests, locations, and schedules.",
-            "lesson": "Week 10 group project",
+            "lesson": "Skill Distillery Week 10 group project",
             "technologies": [
               "Java", "Spring MVC", "JPA", "JPQL", "Hibernate", "JSP", "JSTL",
               "HTML", "CSS", "Bootstrap",
@@ -60,10 +60,10 @@
         {
             "name": "Pumpr",
             "imageURL" : "/img/projects/Pumpr.jpg",
-            "deployment": "/PumprREST/",
+            "deployment": "www.joshgiven.com:8080/PumprREST/",
             "github": "https://github.com/joshgiven/Pumpr",
             "description": "Pumpr is a fuel-consumption event tracker",
-            "lesson": "Week 12 individual project",
+            "lesson": "Skill Distillery Week 12 individual project",
             "technologies": [
               "Java", "Spring MVC", "REST", "JPA", "Hibernate",
               "JavaScript", "jQuery", "Underscore.js", "Chart.js", "Bootstrap", "HTML", "CSS",
@@ -74,10 +74,10 @@
         {
             "name": "TrailApp dba Trail Update",
             "imageURL" : "/img/projects/TrailApp.jpg",
-            "deployment": "/TrailAppREST/",
+            "deployment": "www.joshgiven.com:8080/TrailAppREST/",
             "github": "https://github.com/joshgiven/TrailApp",
             "description": "An effort to crowdsource information about trail conditions, giving users the ability to search, filter, and update information.",
-            "lesson": "Week 15 group project",
+            "lesson": "Skill Distillery Week 15 group project",
             "technologies": [
               "Java", "Spring MVC", "REST", "JPA", "JPQL", "Hibernate",
               "JavaScript", "AngularJS", "jQuery",
